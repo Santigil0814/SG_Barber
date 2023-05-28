@@ -1,0 +1,101 @@
+/* Navbar */
+.navbar .logoNav {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #dddddd;
+  padding: 5px;
+}
+
+/* Body */
+body {
+  min-height: 100vh;
+}
+.welcome {
+  background-image: url(../img/backgrounSection.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 71px);
+}
+.welcome p {
+  color: #212529;
+  -webkit-text-stroke: 0.2px white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 3rem;
+}
+.sectionServicios,
+.sectionTestimonios {
+  margin: 10px 0;
+}
+.sectionServicios h3,
+.sectionTestimonios h3 {
+  text-decoration: underline;
+}
+.sectionServicios .imgServicios {
+  max-width: 300px;
+  min-height: 300px;
+}
+.servicios,
+.testimonios {
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px 15px;
+}
+/* .bg-testimonios {
+  background-image: url(../img/testimoniosBg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.card-testimonio {
+  max-width: 400px;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  color: white;
+  max-width: 100vw;
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer .info {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  justify-content: center;
+  align-items: center;
+}
+.footer .info p {
+  margin: 0 !important;
+}
+.footer .redes {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .links-redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #212529;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+.footer .clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #212529;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+}
